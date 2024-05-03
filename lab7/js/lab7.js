@@ -1,3 +1,5 @@
+// Author: Yifeng Huang <yhuan359@ucsc.edu>
+// Created: 5/3/24
 
 
 // Sort username - fucntion that takes user input and sorts the letter 
