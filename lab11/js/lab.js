@@ -4,7 +4,7 @@
    Requirements: jQuery must be loaded for this script to work.
 
    Author: Yifeng Huang
-   Date: 2024
+   Date: 5/20/2024
 */
 
 // Sorts the characters of a string in alphabetical order.
@@ -22,6 +22,6 @@ $("#submit").click(function() {
   userNameSorted = sortString(userName);
 
   // append a new div to our output div
-  $("#content").append('<div class="text"><p>' + userNameSorted + '</p></div>');
+  $("#content").append('<div class="text"><h2><p>' + 'Hello, ' + userNameSorted + '</p></h2></div>');
 });
 
