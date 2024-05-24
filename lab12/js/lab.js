@@ -10,23 +10,23 @@
 function sortingHat(str) {
     len = str.length;
     mod = len % 4;
-    if (mod == 1 ) {
+    if (mod == 0 ) {
         return "Leo Barnes"
     }
-    else if (mod == 2) {
+    else if (mod == 1) {
         return "Dante Bishop"
     }
-    else if (mod == 3) {
+    else if (mod == 2) {
         return "Charlie Roan"
     }
-    else if (mod == 4) {
+    else if (mod == 3) {
         return "Carmelo Johns"
     }
 }
 
 var myButton = document.getElementById("button");
 myButton.addEventListener("click", function() {
-    var name = document.getElementById
+    var name = document.getElementById("input").value;
     var partner = sortingHat(name);
     newText = "<p> You have been partnered with " + partner + "</p>";
     document.getElementById("output").innerHTML = newText;
