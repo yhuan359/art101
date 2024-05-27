@@ -10,23 +10,24 @@
     <main id="content"></main>
     <section>
     <h1> Lab 13: Loops  </h1>
-    <div id="challenge" class="minor-section" id= "challenge">
+    <div id="challenge" class="minor-section">
             <h2> Challenge </h2>
-            <p2> Understanding the concept of conditionals. </p2><br/>
+            <p2> Understanding the concept of loops. </p2><br/>
     </div>
     
-    <div id="problems" class = "minor-section" id= "problems">
+    <div id="problems" class = "minor-section">
         <h2> Problems </h2>
-        <p> I struggled with the mod numbers and understanding that the lab.js is supposed to be at the bottom.</p><br/>
+        <p> I struggled to print the results on the multiple columns.</p><br/>
     </div>
     
-    <div id = "reflections" class="minor-section" id= "reflections">
-        <h2> Relfection </h2>
-        <p> Check the console for the results<br/></p><br/>
+    <div id = "results" class="minor-section">
+        <h2> Results </h2>
+        <p> List of up to 200 numbres with their words combinations <br/></p><br/>
     </div>
     <div>
-        Where should we stop? <input type="number" min=0 max="1000" id="max"><br>
-        Which factors should print?<br>
+        <!-- Enter the loops, factor of each give number -->
+        Where should we stop ? (max= 200) <input type="number" min=0 max=200 id="max"><br>
+        Which factors should print? (0 - 10) <br>
         <table>
             <tr>
                 <th>Factor</th>
@@ -34,27 +35,23 @@
             </tr>
 
             <tr>
-                <td><input type="number" min=0 max="23" id="num0"></td>
+                <td><input type="number" min=0 max=10 id="num0"></td>
                 <td><input type ="text" id="text0"></td>
             </tr>
 
             <tr>
-                <td><input type="number" min=0 max="23" id="num1"></td>
+                <td><input type="number" min=0 max=10 id="num1"></td>
                 <td><input type ="text" id="text1"></td>
             </tr>
 
             <tr>
-                <td><input type="number" min=0 max="23" id="num2"></td>
+                <td><input type="number" min=0 max=10 id="num2"></td>
                 <td><input type ="text" id="text2"></td>
-            </tr>
-
-            <tr>
-                <td><input type="number" min=0 max="23" id="num3"></td>
-                <td><input type ="text" id="text3"></td>
             </tr>
         </table>
         <button id="submit">Run</button>
     </div>
+    
     <h3> Output </h3>
     <div id="output"></div>
  </div>
