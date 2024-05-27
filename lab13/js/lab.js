@@ -1,10 +1,8 @@
-/*
- * Author: Wes Modes <wmodes@csumb.edu>
- * Edited by: Yifeng Huang
- * Created: 5/23/2024
- * License: Public Domain
- */
-
+ // * Author: Wes Modes <wmodes@csumb.edu>
+ // * Edited by: Yifeng Huang
+ // * Created: 5/23/2024
+ // * License: Public Domain
+ 
 maxFactors = 3;
 
 outputEl = document.getElementById("output");
