@@ -2,7 +2,7 @@
 // Date: 6/1/24
 // Created while learning from example in class 
 
-// create a button listener
+// create a listening button
 $("#my-button").click(function(){
   // call ajax
   $.ajax(ajaxObj);
@@ -10,19 +10,19 @@ $("#my-button").click(function(){
 
 const URL = "https://api.chucknorris.io/jokes/random";
 
-// setup ajax object
+// set up an ajax object
 const ajaxObj = {
   url: URL,
   type: "GET",
   dataType: "json",
-  success: ajaxSuccess,
+  success: ajaxSuccess
 }
 
-// create ajax success callback (named)
+// if ajax succeeeds
 function ajaxSuccess(data) {
     // parse json
     const joke = data.value;
 
-    // put joke in output div
+    // output prints joke
     $("#output").html(joke);
 }
